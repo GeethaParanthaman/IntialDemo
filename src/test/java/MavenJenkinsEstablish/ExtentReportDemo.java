@@ -26,6 +26,7 @@ public class ExtentReportDemo {
 		 report=new ExtentReports();
 		report.attachReporter(sparkrepo);
 		report.setSystemInfo("Tester", "Geetha S");
+		
 	}
 	
 
@@ -47,4 +48,10 @@ report.flush();
 
 
 }
+
+public void newCode()
+{
+	System.out.println("NEWLY UPDATED CODE WITH EXISTING ONDE");
+}
+
 }

@@ -52,6 +52,18 @@ report.flush();
 public void newCode()
 {
 	System.out.println("NEWLY UPDATED CODE WITH EXISTING ONDE");
+	System.out.println("DEMO:For new branch");
+System.out.println("DEMO:For new branch2");
+System.out.println("\"DEMO:For new branch3");
+
+}
+public void newCodeForNewBranch()
+{
+	//System.out.println("NEWLY UPDATED CODE WITH EXISTING ONDE");
+	System.out.println("DEMO:For new branch barnch");
+System.out.println("DEMO:For new branch2  adasd");
+System.out.println("\"DEMO:For new branch3casscsc");
+
 }
 
 }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestMvnIntegration">
+    <classes>
+      <class name="MavenPractise.MavenJavaExample.SeleniumMobileTest"/>
+      <class name="MavenPractise.MavenJavaExample.AppTest"/>
+      <!-- <class name="MavenPractise.MavenJavaExample.SeleniumExampleTest"/> -->
+    </classes>
+  </test> <!-- TestMvnIntegration -->
+</suite> <!-- Suite -->

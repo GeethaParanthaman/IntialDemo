@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-11T14:50:34 IST" name="Command line suite" finished-at="2020-09-11T14:50:35 IST" duration-ms="165">
+    <groups>
+    </groups>
+    <test started-at="2020-09-11T14:50:34 IST" name="Command line test" finished-at="2020-09-11T14:50:35 IST" duration-ms="165">
+      <class name="MavenPractise.MavenJavaExample.SeleniumMobileTest">
+        <test-method signature="mobileScreenTesingProduct()[pri:0, instance:MavenPractise.MavenJavaExample.SeleniumMobileTest@2de8284b]" started-at="2020-09-11T14:50:35 IST" name="mobileScreenTesingProduct" finished-at="2020-09-11T14:50:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileScreenTesingProduct -->
+        <test-method signature="mobileTestingProduct()[pri:0, instance:MavenPractise.MavenJavaExample.SeleniumMobileTest@2de8284b]" started-at="2020-09-11T14:50:35 IST" name="mobileTestingProduct" finished-at="2020-09-11T14:50:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileTestingProduct -->
+      </class> <!-- MavenPractise.MavenJavaExample.SeleniumMobileTest -->
+      <class name="MavenPractise.MavenJavaExample.SeleniumExampleTest">
+        <test-method signature="browsertest()[pri:0, instance:MavenPractise.MavenJavaExample.SeleniumExampleTest@78ac1102]" started-at="2020-09-11T14:50:35 IST" name="browsertest" finished-at="2020-09-11T14:50:35 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsertest -->
+        <test-method signature="screenTest()[pri:0, instance:MavenPractise.MavenJavaExample.SeleniumExampleTest@78ac1102]" started-at="2020-09-11T14:50:35 IST" name="screenTest" finished-at="2020-09-11T14:50:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenTest -->
+      </class> <!-- MavenPractise.MavenJavaExample.SeleniumExampleTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

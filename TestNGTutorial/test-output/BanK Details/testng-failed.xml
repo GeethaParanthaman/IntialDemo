@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BanK Details]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Loan Details(failed)">
+    <classes>
+      <class name="bank.loan.PersonalDetails">
+        <methods>
+          <include name="hobies"/>
+        </methods>
+      </class> <!-- bank.loan.PersonalDetails -->
+      <class name="bank.loan.BankDetails">
+        <methods>
+          <include name="carLoan"/>
+          <include name="hobbies"/>
+        </methods>
+      </class> <!-- bank.loan.BankDetails -->
+    </classes>
+  </test> <!-- Loan Details(failed) -->
+</suite> <!-- Failed suite [BanK Details] -->

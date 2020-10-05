@@ -1,0 +1,2 @@
+module Selenium2 {
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BanK Details">
+<test name="Loan Details" parallel="classes" thread-count="10">
+<packages>
+<package name="bank.loan"></package>
+</packages>
+</test>
+    
+   <test name="Learning deatils">
+     <classes>
+     <class name="testng.concepts.Practise2">
+     <methods>
+     <exclude name="testNg.*"></exclude>
+     </methods>
+   </class>
+     </classes>
+     
+     
+     </test>
+      </suite>

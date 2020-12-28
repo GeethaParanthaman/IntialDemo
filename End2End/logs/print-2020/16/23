@@ -1,6 +1,0 @@
-2020-10-23 15:15:11,430 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.maxSharedCapacityFactor: 2
-2020-10-23 15:15:11,434 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.linkCapacity: 16
-2020-10-23 15:15:11,434 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.ratio: 8
-2020-10-23 15:15:16,785 INFO a.E.ValidateTitle [main] Chrome for login page initiated
-2020-10-23 15:15:35,352 INFO a.E.ValidateTitle [main] chrome for user details given
-2020-10-23 15:15:39,140 INFO a.E.ValidateTitle [main] chrome for user details given

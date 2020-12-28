@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="1" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-31T17:18:40 IST" name="Failed suite [BanK Details]" finished-at="2020-08-31T17:18:40 IST" duration-ms="230">
+    <groups>
+    </groups>
+    <test started-at="2020-08-31T17:18:40 IST" name="Loan Details(failed)" finished-at="2020-08-31T17:18:40 IST" duration-ms="230">
+      <class name="bank.loan.PersonalDetails">
+        <test-method signature="hobies(java.lang.String)[pri:0, instance:bank.loan.PersonalDetails@78e94dcf]" started-at="2020-08-31T17:18:40 IST" name="hobies" finished-at="2020-08-31T17:18:40 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method hobies but has not been marked @Optional or defined
+in C:\Users\PARANTHAMAN GEETHA\eclipse-workspace\TestNGTutorial\test-output\testng-failed.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method hobies but has not been marked @Optional or defined
+in C:\Users\PARANTHAMAN GEETHA\eclipse-workspace\TestNGTutorial\test-output\testng-failed.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:875)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hobies -->
+      </class> <!-- bank.loan.PersonalDetails -->
+      <class name="bank.loan.BankDetails">
+        <test-method signature="hobbies()[pri:0, instance:bank.loan.BankDetails@233fe9b6]" started-at="2020-08-31T17:18:40 IST" name="hobbies" finished-at="2020-08-31T17:18:40 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hobbies -->
+        <test-method signature="carLoan(java.lang.String, java.lang.String)[pri:0, instance:bank.loan.BankDetails@233fe9b6]" started-at="2020-08-31T17:18:40 IST" name="carLoan" finished-at="2020-08-31T17:18:40 IST" depends-on-methods="bank.loan.BankDetails.hobbies" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method carLoan but has not been marked @Optional or defined
+in C:\Users\PARANTHAMAN GEETHA\eclipse-workspace\TestNGTutorial\test-output\testng-failed.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method carLoan but has not been marked @Optional or defined
+in C:\Users\PARANTHAMAN GEETHA\eclipse-workspace\TestNGTutorial\test-output\testng-failed.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:875)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoan -->
+      </class> <!-- bank.loan.BankDetails -->
+    </test> <!-- Loan Details(failed) -->
+  </suite> <!-- Failed suite [BanK Details] -->
+</testng-results>

@@ -1,0 +1,6 @@
+2020-10-21 19:40:40,719 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-10-21 19:40:40,724 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.linkCapacity: 16
+2020-10-21 19:40:40,724 DEBUG i.n.u.Recycler [AsyncHttpClient-3-1] -Dio.netty.recycler.ratio: 8
+2020-10-21 19:41:36,157 INFO a.E.ValidateTitle [main] Chrome for login page initiated
+2020-10-21 19:42:29,472 INFO a.E.ValidateNavigatorDisplay [main] Intialized driver
+2020-10-21 19:43:10,092 INFO a.E.ValidateTitle [main] Broswer intiated for title check

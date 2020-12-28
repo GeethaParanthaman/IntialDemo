@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  <listeners>
+<listener class-name="allConcepts.End2End.Listeners">
+</listener>
+</listeners>
+
+  <test thread-count="5" name="Login page verification">
+  
+    <classes>
+      <class name="allConcepts.End2End.HomePage"/>
+      </classes>
+       </test>
+       
+             <test thread-count="5" name="Navigation bar display check">
+       <classes>
+ <class name="allConcepts.End2End.ValidateNavigatorDisplay"/>
+   </classes>   
+ </test>
+    
+      
+      <test thread-count="5" name="Title confirmation">
+      <classes>
+        <class name="allConcepts.End2End.ValidateTitle"/>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
